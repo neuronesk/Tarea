@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e272e; /* Fondo oscuro similar a HTB */
+    color: #f5f6fa; /* Texto claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #2c3e50; /* Contenedor principal más oscuro */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 800px;
+    max-width: 95%;
+}
+
+.objectives-section {
+    margin-bottom: 30px;
+}
+
+.objectives-section h1 {
+    text-align: center;
+    color: #00b894; /* Color de acento verde de HTB */
+    margin-bottom: 30px;
+}
+
+.objectives-list {
+    list-style: none;
+    padding: 0;
+}
+
+.objective-item {
+    background-color: #34495e; /* Fondo de cada objetivo */
+    color: #dcdde1;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.objective-item:hover {
+    background-color: #4a6572; /* Ligeramente más oscuro al pasar el ratón */
+}
+
+.objective-icon {
+    font-size: 1.5em;
+    margin-right: 20px;
+    color: #00b894; /* Icono verde */
+    width: 30px;
+    text-align: center;
+}
+
+.objective-content h3 {
+    color: #f5f6fa;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.objective-content p {
+    color: #7f8c8d;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
